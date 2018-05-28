@@ -6,11 +6,10 @@ def roll_call_dwarves(array_of_dwarves)
   print list_of_dwarves
 end
 
-def summon_captain_planet(planeteer_calls)
+def summon_captain_planet(planeteers)
   planeteer_calls.map do |planeteer|
     planeteer + "!".capitalize 
   end
-  print planeteer_calls
 end
 
 def long_planeteer_calls# code an argument here
