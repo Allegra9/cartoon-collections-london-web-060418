@@ -8,7 +8,7 @@ end
 
 def summon_captain_planet(planeteers)
   planeteers.map do |planeteer|
-    planeteer + "!".capitalize 
+    planeteer = planeteer.capitalize + "!"
   end
 end
 
