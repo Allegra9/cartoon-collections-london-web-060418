@@ -22,7 +22,7 @@ def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   cheese_types.map do |cheese|
   if array.include?(cheese)
-    retun cheese 
+    retur n cheese 
   else 
     return nil 
   end
